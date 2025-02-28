@@ -63,7 +63,8 @@ const Slider = ({ products, region }) => {
           <div className="absolute w-[100vw] text-[#9c9c9c68] text-[18vw]  flex justify-center items-center left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 uppercase pointer-events-none overflow-hidden ">
             <AnimatePresence mode="wait">
               {currentTitle && (
-                <motion.h1
+                <motion.h3
+                  className="humane"
                   key={currentTitle}
                   initial={{ y: "100%", rotate: 5 }}
                   animate={{ y: 0, rotate: 0 }}
@@ -75,7 +76,7 @@ const Slider = ({ products, region }) => {
                   ref={titleRef}
                 >
                   {currentTitle}
-                </motion.h1>
+                </motion.h3>
               )}
             </AnimatePresence>
           </div>

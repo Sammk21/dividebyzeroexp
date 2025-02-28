@@ -11,7 +11,7 @@ export default async function FeaturedProducts({
   collections: ProductCollectionWithPreviews[]
   region: Region
 }) {
-  console.log("collections", collections)
+
   return (
     <>
       <div className="w-full flex justify-center flex-col items-center pb-12 text-[8vw] sm:text-[3vw]">

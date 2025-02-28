@@ -27,7 +27,7 @@ const nextConfig = withStoreConfig({
       },
       {
         protocol: "https",
-        hostname: "static.zara.net",
+        hostname: "only-education-strapi-media.s3.ap-south-1.amazonaws.com",
       },
       {
         protocol: "https",

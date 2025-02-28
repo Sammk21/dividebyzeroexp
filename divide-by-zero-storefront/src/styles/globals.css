@@ -37,12 +37,12 @@
     list-style: none;
   }
   h1 {
-    font-family: "HumaneBlack", Georgia;
+  
     line-height: normal;
-    color: #747264;
+
   }
   h2 {
-    color: #3c3633;
+
   }
   .textglobal {
     color: #3c3633;
@@ -171,6 +171,9 @@ video::-webkit-media-controls {
   display: none;
 }
 
+.humane{
+      font-family: "HumaneBlack", Georgia;
+}
 /* Only necessary with horizontal scrolling */
 /* html[data-scroll-orientation="horizontal"] {
     body {

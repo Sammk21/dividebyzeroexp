@@ -41,15 +41,15 @@ export default function ProductRail({
   }, [])
 
   return (
-    <div className=" px-2 sm:px-10   flex justify-center flex-col py-8 border-y border-[2px] ">
+    <div className=" px-2 sm:px-10 overflow-hidden  flex justify-center flex-col py-8 border-y border-[2px] ">
       <div className="flex justify-between mb-8 flex-col sm:flex-row  ">
-        <div className="h-full">
-          <h1 className=" textglobal sm:text-[15vw] text-[30vw] leading-none flex items-baseline">
+        <div className="h-full w-full">
+          <h3 className=" textglobal text-[20vw] sm:text-[8vw] leading-none flex humane items-baseline">
             {collection.title}{" "}
             <span className="text-[4vw] ml-4">
               ( {collection.products.length} )
             </span>
-          </h1>
+          </h3>
         </div>
         <div className="textglobal sm:w-[50%] w-full flex items-center sm:pl-7 text-xs sm:text-base ">
           These baggy pants aren&apos;t just about style; they&apos;re about
