@@ -1,5 +1,4 @@
 import { Region } from "@medusajs/medusa"
-
 import ProductRail from "@modules/home/components/featured-products/product-rail"
 import { BsArrowDown } from "react-icons/bs"
 import { ProductCollectionWithPreviews } from "types/global"
@@ -11,7 +10,6 @@ export default async function FeaturedProducts({
   collections: ProductCollectionWithPreviews[]
   region: Region
 }) {
-
   return (
     <>
       <div className="w-full flex justify-center flex-col items-center pb-12 text-[8vw] sm:text-[3vw]">
